@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+group = 'com.almundo.callcenter'
+version = '1.0'
+
+repositories {
+		mavenCentral()
+}
+
+dependencies {
+		testCompile group: 'junit', name: 'junit', version: '3.8.1'
+}
